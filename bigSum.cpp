@@ -54,8 +54,7 @@ string power(string base, uintmax_t exp)
 //m: lenght of ss.str() (number of digits)
 string S(string x)
 {
-
-	std::uintmax_t sum = 0;
+	uintmax_t sum = 0;
 	for(char& c : x)
 	{
 		sum += ( c - '0' );
